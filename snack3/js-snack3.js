@@ -21,5 +21,5 @@ for (let i = 0; i < 3; i++) {
     randomPeople.push(randomName + " " + randomSurnames);
 }
 
-// Controllo che newsletterSubscribers si sia rimepito
+// Controllo che randomPeople si sia rimepito
 console.log(randomPeople);
