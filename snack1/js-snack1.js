@@ -23,11 +23,15 @@ console.log(`Versione for: Il risultato è ${result}`);
 // Azzero result
 result = 0
 
-while (result < numbers) {
+// Creo l'indice
+let index = 0
+
+while (index < numbers) {
     // Chiedo all'utente di inserire il numero
     const input = Number(prompt('Inserisci un numero'));
     // Ad ogni iterazione vado a sommare il nuovo input con il valore precedente di result
     result += input;
+    index += 1
 }
 
 // Stampo il risultato in console
